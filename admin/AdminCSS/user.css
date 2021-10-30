@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'Segoe UI';
+    src: url(../seguisb.ttf);
+}
+main{
+    width: 100%;
+    padding-left: 240px;
+    padding-right: 40px;
+    padding-top: 50px;
+    font-family: "Segoe UI";
+
+}
+
+main h1{
+    font-size: 24px;
+}
+.table .thead-dark th{
+    background-color: #09246C;
+    border: none;
+}
+
+.table td i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+main table{
+    margin-top: 10px;
+}
+form{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.form-inline .form-control:focus{
+    outline-color: #09246C;
+}
+
+.form-inline .form-control{
+    width: 320px;
+    outline-color: #09246C;
+}
+
+.form-inline .btn{
+    border: 1px solid #09246C;
+    color: #09246C;
+}
+
+.form-inline .btn:hover{
+    background-color: #09246C;
+    color: white;
+}

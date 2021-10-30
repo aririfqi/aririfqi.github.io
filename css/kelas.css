@@ -1,0 +1,191 @@
+@font-face{
+    font-family: 'Segoe UI';
+    src: url(../SEGOEUI.TTF);
+}
+
+html, body{
+    min-height: 100vh;
+    position: relative;
+}
+main{
+    width: 1000px;
+    margin: auto;
+    font-family: 'Segoe UI';
+   
+}
+main .head{
+    font-size: 20px;
+    color: #09246C;
+}
+
+
+label  {
+    font-size: 20px;
+}
+select{
+    font-size: 16px;
+}
+
+label, select{
+    color: #09246C;
+}
+
+
+.containerMateri{
+    margin-top: 10px;
+    /* margin-bottom: 50px; */
+}
+
+.kotakMapel{
+    width: 100%;
+    height: fit-content;
+    /* background-color: #FDE3E5; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+
+.mapel{
+    width: 190px;
+    height: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #FDE3E5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border-radius: 4px; */
+    /* align-items: center; */
+    cursor: pointer;
+    position: relative;
+}
+
+.mapel button{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: none;
+    background-color: #FDE3E5;
+    cursor: pointer;
+}
+.mapel img{
+    /* width: 100px; */
+    padding: 0px 0px;
+    width: 100px;
+    height: fit-content;
+    margin-top: 12px;
+
+}
+
+.mapel h4{
+    font-size: 12pt;
+    text-align: center;
+    color: #09246C;
+}
+
+a{
+    text-decoration: none;
+}
+.mapel a:hover{
+    text-decoration: underline;
+}
+
+form input{
+    border: 1px solid #09246C;
+    width: 200px;
+    height: 30px;
+    color: #09246C;
+    font-size: 12pt;
+    font-family: 'Segoe UI';
+    text-indent: 4px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+form input:focus{
+    outline: #09246C;
+    outline-width: 1.5px;
+    outline-style:outset;
+}
+.daftar form input::placeholder{
+    background-color: white;
+    color: gray;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+form button{
+    background-color: #09246C;;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+}
+
+.buatKelas{
+    background-color: rgba(0, 0, 0, 0.363);
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.pembungkusbuatKelas{
+    background-color: white;
+    position: relative;
+    width: 300px;
+    height: 340px;
+    padding: 70px 50px;
+    
+    
+}
+
+.buatKelas form, .buatKelas h2{
+    text-align: center;
+}
+
+.buatKelas p{
+    position: absolute;
+    /* float: right; */
+    font-size: 25px;
+    color: #09246C;
+    padding: 5px 5px 0 0;
+    cursor: pointer;
+    top: 5px;
+    right: 5px;
+}
+
+.buatKelas h2{
+    padding-top: 40px;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.buatKelas form input{
+    border: 1px solid #09246C;
+    width: 250px;
+    height: 35px;
+    color: #09246C;
+    font-size: 12pt;
+    font-family: 'Segoe UI';
+    text-indent: 4px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.buatKelas form button{
+    width: 255px;
+    height: 40px;
+}

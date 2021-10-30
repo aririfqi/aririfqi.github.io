@@ -1,0 +1,43 @@
+@font-face{
+    font-family: 'Segoe UI';
+    src: url(../SEGOEUI.TTF);
+}
+
+
+html, body{
+    font-family: 'Segoe UI';
+    color: #09246C;
+}
+
+body h1{
+    font-size: 24px;
+}
+main{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+main .card h4{
+    width: 100%;
+    color: white;
+}
+main .card-header{
+    background-color: #09246C;
+    width: 100%;
+}
+
+main .card-body{
+    color: black;
+}
+.card i{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.card .isi{
+    display: none;
+}

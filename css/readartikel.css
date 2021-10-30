@@ -1,0 +1,36 @@
+@font-face{
+    font-family: 'Segoe UI';
+    src: url(../SEGOEUI.TTF);
+}
+main{
+    width: 1000px;
+    margin: auto;
+    height: fit-content;
+    padding-bottom: 50px;
+    color: #09246C;
+    
+}
+
+main .hero{
+    height: 400px;
+    overflow: hidden;
+
+}
+main img{
+    width: 100%;
+}
+
+main h1{
+    font-size: 24pt;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Segoe UI';
+}
+
+main p{
+    font-family: 'Segoe UI';
+    font-size: 14pt;
+    text-align: justify;
+    line-height: 30px;
+}

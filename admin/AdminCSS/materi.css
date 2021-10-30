@@ -1,0 +1,41 @@
+@font-face{
+    font-family: 'Segoe UI';
+    src: url(../seguisb.ttf);
+}
+main{
+    width: 100%;
+    padding-left: 240px;
+    padding-right: 40px;
+    padding-top: 50px;
+    font-family: "Segoe UI";
+
+}
+
+.card{
+    margin-top: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.card img{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    
+}
+
+.card-body{
+    border-top: 1px solid lightcoral;
+    padding-top: 0px;
+}
+
+.card h5{
+    padding-top: 5px;
+}
+
+.card a{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+

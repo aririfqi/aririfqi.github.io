@@ -1,0 +1,22 @@
+main{
+    width: 100%;
+    padding-left: 240px;
+    padding-right: 40px;
+    padding-top: 50px;
+    font-family: "Segoe UI";
+}
+h5{
+    padding-top: 20px;
+}
+h1{
+    margin-bottom: 50px;
+}
+
+a{
+    display: inline-block;
+}
+.card{
+
+    display: inline-block;
+    margin-right: 10px;
+}

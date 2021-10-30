@@ -1,0 +1,183 @@
+@font-face{
+    font-family: 'Segoe UI';
+    src: url(../seguisb.ttf);
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+header{
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    /* font-weight: bold; */
+    /* position: fixed; */
+    position: relative;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+header .judul{
+    width: 100%;
+    height: 70px;
+    background-color: #09246C;
+    position: relative;
+    /* margin-bottom: 40px; */
+}
+header .judul h1{
+    font-size: 200%;
+    display: inline-block;
+    color: #D0FCFF;
+    margin-top: 19px;
+    padding-left: 40px;
+    line-height: 20px;
+    
+}
+header .judul a{
+    text-decoration: none;
+    
+    
+}
+
+header .judul p{
+    line-height: 20px;
+}
+header .judul .tulisan{
+    /* background-color: black; */
+    position: absolute;
+    width: 300px;
+    right: 250px;
+    top: 6px;
+}
+header .judul .tulisan p{
+    color: #D0FCFF;
+    /* display: inline-block; */
+    /* position: absolute;
+    right: 130px;
+    top: 6px; */
+    cursor: pointer;
+    padding: 20px;
+    padding-left: 0px;
+    /* background-color: black; */
+    text-align: right;
+    font-size: 20px;
+}
+
+header .judul .fotoProfil{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.fotoProfil{
+    cursor: pointer;
+    
+}
+
+.fotoProfil:hover{
+    opacity: 0.8;
+}
+
+.fotoProfil img{
+    width: 50px;
+}
+
+.logout{
+    display: none;
+    position: absolute;
+    width: 130px;
+    height: fit-content;
+    background-color: white;
+    right: 160px;
+    top: 62px;
+    
+    
+}
+
+.logout a{
+    text-decoration: none;
+    color: #09246C;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    z-index: 10;
+    
+}
+
+.logout li{
+    padding: 5px 7px;
+    border: 1px solid #09246C;
+}
+
+.logout li:last-child{
+    border-bottom: 2px solid #09246C;
+}
+
+.logout li:hover{
+    background-color: #09246C;
+}
+
+.logout li:hover{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav{
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    background-color: #09246C;
+}
+nav ul li{
+    display: block;
+    width: 200px;
+}
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul li{
+    padding: 15px 15px;
+    
+    /* background-color: black; */
+}
+nav ul li h1{
+    padding-top: 10px;
+    font-size: 14pt;
+    margin: 0px;
+
+}
+
+nav ul li{
+    color: white;
+}
+
+nav ul li:hover{
+    background-color: white;
+    color: #09246C;
+}
+
+nav ul li:hover > a{
+    color: #09246C;
+}
+
+td a{
+    text-decoration: none;
+    color: #09246C;
+}
+td a:hover{
+    text-decoration: underline;
+}
+main h2{
+    font-family: 'Segoe UI';
+    color: #09246C;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+

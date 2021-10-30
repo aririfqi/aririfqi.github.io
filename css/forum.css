@@ -1,0 +1,143 @@
+main {
+    color: #09246C;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.penghalang {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    /* background-color: black; */
+}
+.logout{
+    z-index: 2;
+}
+.sticky-top{
+    z-index: 1;
+}
+.forum {
+    width: 70%;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.forum .unit {
+    width: 100%;
+    height: fit-content;
+}
+
+.type {
+    width: 40%;
+    height: 300px;
+    /* background-color: #09246C; */
+}
+
+body main .forum {
+    color: #09246C;
+}
+
+.forum h4 {
+    line-height: 16px;
+}
+
+.forum {
+    padding-top: 20px;
+}
+
+form {
+    width: 100%;
+}
+
+.forum i {
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+i span {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    padding-left: 10px;
+    /* padding-bottom: 100px; */
+    /* text-align: center; */
+
+}
+
+.forum .komentar {
+    display: inline-block;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.type {
+    padding: 20px 0px;
+}
+
+.judulBerita {
+    padding: 10px 0px;
+}
+
+form input,
+form textarea {
+    border: 2px solid rgb(199, 194, 194);
+    border-radius: 2px;
+    text-indent: 5px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    overflow: hidden;
+}
+
+form textarea {
+    height: 100px;
+}
+
+a {
+    color: #09246C;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #09246C;
+}
+
+form input:focus {
+    border-color: rgba(9, 36, 108, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(9, 36, 108, 0.6);
+    outline: none;
+}
+
+form textarea:focus {
+    border-color: rgba(9, 36, 108, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(9, 36, 108, 0.6);
+    outline: none;
+}
+
+.unit{
+    position: relative;
+}
+.type form button {
+    width: 80px;
+}
+
+.type form button:hover {
+    background-color: #09246C;
+}
+
+.unit .foto {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+h5{
+    display: inline-block;
+    position: absolute;
+    top: 11px;
+    left: 60px;
+}

@@ -1,0 +1,123 @@
+Date : 2021-06-08 11:37:26
+Directory : e:\SEMESTER4\PWEB\EDIN
+Total : 89 files,  18841 codes, 507 comments, 2418 blanks, all 21766 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |         35 |     16,144 |        197 |      1,913 |     18,254 |
+| PHP        |         44 |      2,303 |         72 |        365 |      2,740 |
+| SQL        |          1 |        207 |        188 |         98 |        493 |
+| JavaScript |          8 |        136 |         50 |         36 |        222 |
+| HTML       |          1 |         51 |          0 |          6 |         57 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                |         89 |     18,841 |        507 |      2,418 |     21,766 |
+| admin                                                            |         24 |        877 |         17 |        139 |      1,033 |
+| admin\AdminCSS                                                   |          7 |        305 |         11 |         65 |        381 |
+| css                                                              |         29 |     15,900 |        186 |      1,852 |     17,938 |
+| css\bootsrap                                                     |          9 |     13,864 |         51 |      1,485 |     15,400 |
+| js                                                               |          8 |        136 |         50 |         36 |        222 |
+| user                                                             |         17 |        965 |          3 |        145 |      1,113 |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                         | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\SEMESTER4\PWEB\EDIN\admin\AdminCSS\buatartikel.css            | CSS        |         11 |          0 |          1 |         12 |
+| e:\SEMESTER4\PWEB\EDIN\admin\AdminCSS\dashboard.css              | CSS        |         20 |          0 |          2 |         22 |
+| e:\SEMESTER4\PWEB\EDIN\admin\AdminCSS\editmateri.css             | CSS        |         26 |          0 |          5 |         31 |
+| e:\SEMESTER4\PWEB\EDIN\admin\AdminCSS\home.css                   | CSS        |        141 |         11 |         32 |        184 |
+| e:\SEMESTER4\PWEB\EDIN\admin\AdminCSS\kelas.css                  | CSS        |         30 |          0 |          8 |         38 |
+| e:\SEMESTER4\PWEB\EDIN\admin\AdminCSS\materi.css                 | CSS        |         33 |          0 |          9 |         42 |
+| e:\SEMESTER4\PWEB\EDIN\admin\AdminCSS\user.css                   | CSS        |         44 |          0 |          8 |         52 |
+| e:\SEMESTER4\PWEB\EDIN\admin\artikel.php                         | PHP        |         61 |          1 |          7 |         69 |
+| e:\SEMESTER4\PWEB\EDIN\admin\babpelajaran.php                    | PHP        |         30 |          0 |          2 |         32 |
+| e:\SEMESTER4\PWEB\EDIN\admin\buatArtikel.php                     | PHP        |         39 |          0 |          6 |         45 |
+| e:\SEMESTER4\PWEB\EDIN\admin\ceklogin.php                        | PHP        |         11 |          0 |          3 |         14 |
+| e:\SEMESTER4\PWEB\EDIN\admin\dashboard.php                       | PHP        |         61 |          0 |          6 |         67 |
+| e:\SEMESTER4\PWEB\EDIN\admin\editArtikel.php                     | PHP        |         43 |          0 |          8 |         51 |
+| e:\SEMESTER4\PWEB\EDIN\admin\editmateri.php                      | PHP        |         35 |          0 |         10 |         45 |
+| e:\SEMESTER4\PWEB\EDIN\admin\forum.php                           | PHP        |         57 |          1 |          3 |         61 |
+| e:\SEMESTER4\PWEB\EDIN\admin\hapusArtikel.php                    | PHP        |          7 |          0 |          3 |         10 |
+| e:\SEMESTER4\PWEB\EDIN\admin\hapusForum.php                      | PHP        |          7 |          0 |          3 |         10 |
+| e:\SEMESTER4\PWEB\EDIN\admin\hapusKelas.php                      | PHP        |          7 |          0 |          3 |         10 |
+| e:\SEMESTER4\PWEB\EDIN\admin\hapusUser.php                       | PHP        |          7 |          0 |          3 |         10 |
+| e:\SEMESTER4\PWEB\EDIN\admin\kelas.php                           | PHP        |         58 |          1 |          3 |         62 |
+| e:\SEMESTER4\PWEB\EDIN\admin\materi.php                          | PHP        |         31 |          0 |          3 |         34 |
+| e:\SEMESTER4\PWEB\EDIN\admin\nav.php                             | PHP        |         30 |          2 |          6 |         38 |
+| e:\SEMESTER4\PWEB\EDIN\admin\pelajaran.php                       | PHP        |         30 |          0 |          2 |         32 |
+| e:\SEMESTER4\PWEB\EDIN\admin\user.php                            | PHP        |         58 |          1 |          3 |         62 |
+| e:\SEMESTER4\PWEB\EDIN\buatAkun.php                              | PHP        |         74 |          0 |         12 |         86 |
+| e:\SEMESTER4\PWEB\EDIN\ceklogin.php                              | PHP        |         11 |          0 |          3 |         14 |
+| e:\SEMESTER4\PWEB\EDIN\css\animation.css                         | CSS        |         20 |          1 |          5 |         26 |
+| e:\SEMESTER4\PWEB\EDIN\css\artikel.css                           | CSS        |         86 |          3 |         13 |        102 |
+| e:\SEMESTER4\PWEB\EDIN\css\bootsrap\bootstrap-glyphicons.css     | CSS        |        803 |          5 |          2 |        810 |
+| e:\SEMESTER4\PWEB\EDIN\css\bootsrap\bootstrap-glyphicons.min.css | CSS        |          1 |          5 |          0 |          6 |
+| e:\SEMESTER4\PWEB\EDIN\css\bootsrap\bootstrap-grid.css           | CSS        |      3,659 |          7 |        206 |      3,872 |
+| e:\SEMESTER4\PWEB\EDIN\css\bootsrap\bootstrap-grid.min.css       | CSS        |          1 |          6 |          0 |          7 |
+| e:\SEMESTER4\PWEB\EDIN\css\bootsrap\bootstrap-reboot.css         | CSS        |        262 |          8 |         55 |        325 |
+| e:\SEMESTER4\PWEB\EDIN\css\bootsrap\bootstrap-reboot.min.css     | CSS        |          1 |          7 |          0 |          8 |
+| e:\SEMESTER4\PWEB\EDIN\css\bootsrap\bootstrap.css                | CSS        |      9,084 |          7 |      1,207 |     10,298 |
+| e:\SEMESTER4\PWEB\EDIN\css\bootsrap\bootstrap.min.css            | CSS        |          1 |          6 |          0 |          7 |
+| e:\SEMESTER4\PWEB\EDIN\css\bootsrap\style.css                    | CSS        |         52 |          0 |         15 |         67 |
+| e:\SEMESTER4\PWEB\EDIN\css\cadanganheader.php                    | PHP        |         61 |          0 |          4 |         65 |
+| e:\SEMESTER4\PWEB\EDIN\css\footer.css                            | CSS        |         57 |          3 |          7 |         67 |
+| e:\SEMESTER4\PWEB\EDIN\css\forum.css                             | CSS        |        115 |          4 |         24 |        143 |
+| e:\SEMESTER4\PWEB\EDIN\css\header.css                            | CSS        |        162 |         12 |         34 |        208 |
+| e:\SEMESTER4\PWEB\EDIN\css\index.css                             | CSS        |        144 |         21 |         32 |        197 |
+| e:\SEMESTER4\PWEB\EDIN\css\insidekelas.css                       | CSS        |        189 |         12 |         31 |        232 |
+| e:\SEMESTER4\PWEB\EDIN\css\kelas.css                             | CSS        |        159 |          7 |         25 |        191 |
+| e:\SEMESTER4\PWEB\EDIN\css\login.css                             | CSS        |        114 |          0 |         24 |        138 |
+| e:\SEMESTER4\PWEB\EDIN\css\memberkelas.css                       | CSS        |        173 |         26 |         27 |        226 |
+| e:\SEMESTER4\PWEB\EDIN\css\mtr.css                               | CSS        |         96 |         14 |         20 |        130 |
+| e:\SEMESTER4\PWEB\EDIN\css\ownerkelas.css                        | CSS        |        209 |         13 |         35 |        257 |
+| e:\SEMESTER4\PWEB\EDIN\css\profile.css                           | CSS        |         75 |          9 |         18 |        102 |
+| e:\SEMESTER4\PWEB\EDIN\css\readartikel.css                       | CSS        |         30 |          0 |          5 |         35 |
+| e:\SEMESTER4\PWEB\EDIN\css\readforum.css                         | CSS        |        115 |          5 |         25 |        145 |
+| e:\SEMESTER4\PWEB\EDIN\css\readmateri.css                        | CSS        |         37 |          0 |          7 |         44 |
+| e:\SEMESTER4\PWEB\EDIN\css\registrasi.css                        | CSS        |        119 |          0 |         26 |        145 |
+| e:\SEMESTER4\PWEB\EDIN\css\reset.css                             | CSS        |         42 |          5 |          1 |         48 |
+| e:\SEMESTER4\PWEB\EDIN\css\submittedtask.css                     | CSS        |         33 |          0 |          4 |         37 |
+| e:\SEMESTER4\PWEB\EDIN\edin.sql                                  | SQL        |        207 |        188 |         98 |        493 |
+| e:\SEMESTER4\PWEB\EDIN\footer.php                                | PHP        |         42 |          0 |          2 |         44 |
+| e:\SEMESTER4\PWEB\EDIN\function.php                              | PHP        |        291 |         45 |         81 |        417 |
+| e:\SEMESTER4\PWEB\EDIN\hapusAkun.php                             | PHP        |          6 |          0 |          1 |          7 |
+| e:\SEMESTER4\PWEB\EDIN\header.php                                | PHP        |         95 |         16 |         19 |        130 |
+| e:\SEMESTER4\PWEB\EDIN\index.php                                 | PHP        |         55 |          1 |          8 |         64 |
+| e:\SEMESTER4\PWEB\EDIN\js\alert.js                               | JavaScript |          2 |          1 |          1 |          4 |
+| e:\SEMESTER4\PWEB\EDIN\js\kelas.js                               | JavaScript |         14 |          1 |          5 |         20 |
+| e:\SEMESTER4\PWEB\EDIN\js\komentar.js                            | JavaScript |          9 |          2 |          2 |         13 |
+| e:\SEMESTER4\PWEB\EDIN\js\login.js                               | JavaScript |         14 |          1 |         11 |         26 |
+| e:\SEMESTER4\PWEB\EDIN\js\logut.js                               | JavaScript |         18 |         23 |          6 |         47 |
+| e:\SEMESTER4\PWEB\EDIN\js\materi.js                              | JavaScript |         65 |         13 |          2 |         80 |
+| e:\SEMESTER4\PWEB\EDIN\js\profile.js                             | JavaScript |          0 |          0 |          1 |          1 |
+| e:\SEMESTER4\PWEB\EDIN\js\readmateri.js                          | JavaScript |         14 |          9 |          8 |         31 |
+| e:\SEMESTER4\PWEB\EDIN\login.php                                 | PHP        |         48 |          0 |          8 |         56 |
+| e:\SEMESTER4\PWEB\EDIN\logout.php                                | PHP        |          9 |          0 |          4 |         13 |
+| e:\SEMESTER4\PWEB\EDIN\profile.php                               | PHP        |        125 |          1 |         10 |        136 |
+| e:\SEMESTER4\PWEB\EDIN\user\artikel.php                          | PHP        |         53 |          1 |         10 |         64 |
+| e:\SEMESTER4\PWEB\EDIN\user\buatAkun.html                        | HTML       |         51 |          0 |          6 |         57 |
+| e:\SEMESTER4\PWEB\EDIN\user\ceklogin.php                         | PHP        |         11 |          0 |          3 |         14 |
+| e:\SEMESTER4\PWEB\EDIN\user\download.php                         | PHP        |         33 |          0 |          5 |         38 |
+| e:\SEMESTER4\PWEB\EDIN\user\footer.php                           | PHP        |         53 |          0 |          4 |         57 |
+| e:\SEMESTER4\PWEB\EDIN\user\forum.php                            | PHP        |         60 |          1 |         13 |         74 |
+| e:\SEMESTER4\PWEB\EDIN\user\hapusKelas.php                       | PHP        |         22 |          0 |          2 |         24 |
+| e:\SEMESTER4\PWEB\EDIN\user\insidekelas.php                      | PHP        |         85 |          0 |         17 |        102 |
+| e:\SEMESTER4\PWEB\EDIN\user\kelas.php                            | PHP        |         81 |          0 |         11 |         92 |
+| e:\SEMESTER4\PWEB\EDIN\user\materi.php                           | PHP        |         64 |          0 |          6 |         70 |
+| e:\SEMESTER4\PWEB\EDIN\user\memberkelas.php                      | PHP        |        123 |          0 |         11 |        134 |
+| e:\SEMESTER4\PWEB\EDIN\user\ownerkelas.php                       | PHP        |         98 |          0 |         15 |        113 |
+| e:\SEMESTER4\PWEB\EDIN\user\readMateri.php                       | PHP        |         48 |          0 |         10 |         58 |
+| e:\SEMESTER4\PWEB\EDIN\user\readartikel.php                      | PHP        |         30 |          0 |          5 |         35 |
+| e:\SEMESTER4\PWEB\EDIN\user\readforum.php                        | PHP        |         83 |          1 |         13 |         97 |
+| e:\SEMESTER4\PWEB\EDIN\user\submittedTask.php                    | PHP        |         57 |          0 |         10 |         67 |
+| e:\SEMESTER4\PWEB\EDIN\user\typing.php                           | PHP        |         13 |          0 |          4 |         17 |
+| Total                                                            |            |     18,841 |        507 |      2,418 |     21,766 |
++------------------------------------------------------------------+------------+------------+------------+------------+------------+

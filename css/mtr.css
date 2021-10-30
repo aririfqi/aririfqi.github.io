@@ -1,0 +1,134 @@
+@font-face{
+  font-family: 'Segoe UI';
+  src: url(../SEGOEUI.TTF);
+}
+
+main{
+  width: 1000px;
+  margin: auto;
+  font-family: 'Segoe UI';
+}
+
+body main label  {
+  font-size: 22px;
+  display: inline-block;
+}
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  display: inline-block;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: white;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #09246C transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #09246C transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #09246C;
+  padding: 8px 8px;
+  /* border: 1px solid #09246C; */
+  /* border-color: transparent transparent #09246C transparent; */
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  /* font-size: 40px; */
+  font-size: 18px;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+label, select{
+  color: #09246C;
+}
+
+.containerMateri{
+  margin-top: 10px;
+}
+
+.kotakMapel{
+  width: 100%;
+  height: fit-content;
+  /* background-color: #FDE3E5; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kotakMapel a{
+  text-decoration: none;
+}
+
+.mapel{
+  width: 180px;
+  height: 150px;
+  margin-top: 14px;
+  background-color: #FDE3E5;
+  /* display: flex; */
+  /* flex-wrap: wrap;
+  justify-content: center; */
+  /* border-radius: 4px; */
+  /* align-items: center; */
+  cursor: pointer;
+}
+
+
+.mapel img{
+  /* width: 100px; */
+  padding: 0px 0px;
+  display: block;
+  width: 100px;
+  /* height: fit-content; */
+  
+  margin:auto;
+  margin-top: 10px;
+
+
+}
+
+.mapel h4{
+  font-size: 16px;
+  text-align: center;
+  color: #09246C;
+}
