@@ -85,20 +85,16 @@ if($role == 2) {
                             <input type="email" class="form-control" name="email" value="<?= $user["email"]; ?>">
                         </div>
                         <div class="col-md-12 mt-2">
-                            <label class="labels">Asal Sekolah</label>
+                            <label class="labels">Alamat</label>
                             <input type="text" class="form-control" name="sekolah" value="<?= $user["sekolah"]; ?>">
                         </div>
                         <div class="col-md-12 mt-2">
                             <label class="labels">Status</label>
                             <?php if($user["role"] == 2) : ?>
-                                <input type="text" class="form-control" value="Guru" readonly>
+                                <input type="text" class="form-control" value="Bengkel" readonly>
                             <?php else : ?>
-                                <input type="text" class="form-control" value="Siswa" readonly>
+                                <input type="text" class="form-control" value="Pelanggan" readonly>
                             <?php endif; ?>
-                        </div>
-                        <div class="col-md-12 mt-2">
-                            <label class="labels">Jenjang</label>
-                            <input type="text" class="form-control" value="<?= $user["jenjang"] ?>" readonly>
                         </div>
                     </div>
                     <?php if($_SESSION["role"] != 1) : ?>

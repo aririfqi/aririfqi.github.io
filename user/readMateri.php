@@ -23,18 +23,14 @@ require 'ceklogin.php';
         <h1 class="mb-3">Biologi</h1>
         <div class="card text-white">
             <div class="card-header">
-                <h4>Bab 1 Mengenal Biologi</h4>
+                <h4>Proses ganti oli</h4>
                 <i class="fa fa-chevron-down float-rgiht" aria-hidden="true"></i>
             </div>
             <div class="isi">
 
                 <div class="card-body">
                     <h5 class="card-title">Biologi</h5>
-                    <p class="card-text text-justify">Pada bab pertama ini, Anda akan belajar melakukan penelitian. Selain itu, Anda juga akan mempelajari tentang tahapan-tahapan penelitian ilmiah. Pada bagian lainnya, Anda akan mempelajari ruang lingkup Biologi, termasuk di dalamnya adalah mengenal cabang-cabang Biologi. Menarik, bukan?
-                        Bagaimanakah cara melakukan penelitian yang baik? Tahapan-tahapan ilmiah apa saja yang harus dilakukan agar penelitian yang dilakukan berhasil dengan baik? Apakah yang dimaksud dengan Biologi? Apa sajakah cabang-cabang Biologi itu? Apakah peranan Biologi dalam kehidupan?
-                        Pertanyaan-pertanyaan tersebut dapat Anda jawab setelah mempelajari dan memahami bab berikut dengan baik. Pelajarilah bab berikut dengan semangat dan rasa ingin tahu yang tinggi.<h5 class="card-title">A. Kerja Ilmiah</h5>Rasa ingin tahu manusia terhadap alam semesta yang diciptakan Tuhan dan kehidupan yang terdapat di dalamnya dari zaman dahulu hingga sekarang seakan tidak ada habis-habisnya. Persoalan dan permasalahan yang ada di alam pun seakan tidak akan pernah habis untuk digali. Itulah sebabnya, ilmu pengetahuan terus berkembang dan penemuan-penemuan baru pun terus bermunculan. Anda juga dapat ikut berperan dalam perkembangan ilmu pengetahuan tersebut jika mempunyai keinginan untuk terus menggali ilmu pengetahuan dan terus mencoba memuaskan rasa keingintahuan yang Anda miliki. 
-Sampai saat ini banyak kasus mengenai penyakit yang sangat meresahkan masyarakat, yaitu flu burung. Pada mulanya apa yang menimbulkan penyakit ini tidak diketahui oleh masyarakat. Biologi mampu memecahkan masalah secara ilmiah, sehingga pada akhirnya dapat menjawab penyebab penyakit flu burung yang meresahkan tersebut, yaitu virus H5NI. Masih banyak hal lain yang dapat diselesaikan secara ilmiah, dapatkah Anda menyebutkan contoh lainnya? 
-Dengan demikian, Anda mungkin dapat menjadi seorang penemu baru yang berguna bagi masyarakat luas. Hal tersebut dapat terjadi jika Anda memahami bagaimana kerja ilmiah yang dilakukan oleh para ilmuwan terdahulu dan mengaplikasikannya pada kegiatan-kegiatan ilmiah yang Anda lakukan. Untuk itu, hal pertama yang harus dilakukan adalah melakukan penelitian ilmiah. Apa saja tahapan untuk melakukan penelitian ilmiah? Berikut akan diuraikan bagaimana penelitian ilmiah dapat dilakukan.
+                    <p class="card-text text-justify">Penggantian oli di DISERA cepat dan berkualitas tinggi
 
                     </p>
                 </div>
@@ -42,7 +38,7 @@ Dengan demikian, Anda mungkin dapat menjadi seorang penemu baru yang berguna bag
         </div>
         <div class="card text-white">
             <div class="card-header">
-                <h4>Bab 2 Pengenalan Materi</h4>
+                <h4>Penggantian oli</h4>
                 <i class="fa fa-chevron-down float-rgiht" aria-hidden="true"></i>
             </div>
             <div class="isi">

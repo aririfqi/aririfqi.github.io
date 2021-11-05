@@ -12,7 +12,7 @@ $artikels = query("SELECT * FROM artikel ORDER BY waktu DESC LIMIT 2");
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EDIN</title>
+    <title>DISERA</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/animation.css"> -->
@@ -25,18 +25,18 @@ $artikels = query("SELECT * FROM artikel ORDER BY waktu DESC LIMIT 2");
     <div class="container">
       <div class="mainbox">
         <div class="mainimage">
-          <img src="img/pexels-agung-pandit-wiguna-3401403.jpg" alt="" />
+          <img src="img/motorbike-g0d12a6a91_640.jpg" alt="" />
         </div>
         <div class="maintitle">
-          <h1>Akses belajar Online secara gratis</h1>
-          <h2>Semakin aku banyak belajar, semakin aku sadar bahwa aku tak mengetahui apa pun</h2>
+          <h1>Digital Service App untuk service lebih baik</h1>
+          <h2>Service kendaraan anda, selamatkan perjalanan</h2>
           <a href="user/materi.php"><div class="started">
-            <h3>Mulai belajar</h3>
+            <h3>Mulai Service</h3>
           </div></a>
         </div>
       </div>
       <div class="marigabung">
-        <h1>Jika engkau tidak sanggup menahan lelahnya belajar, engkau harus menanggung pahitnya kebodohan</h1>
+        <h1>Service mudah dimanapun dan kapanpun bersama DISERA</h1>
       </div>
     </div>
     <main>

@@ -25,7 +25,7 @@ $kelass = query("SELECT a.nama_grupbelajar, a.id_grupbelajar FROM grup_belajar A
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelas</title>
+    <title>Service</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/kelas.css">
     <!-- <link rel="stylesheet" href="../css/bootsrap/bootstrap.css"> -->
@@ -38,15 +38,15 @@ $kelass = query("SELECT a.nama_grupbelajar, a.id_grupbelajar FROM grup_belajar A
         
         <?php if($_SESSION["role"] == 3) : ?>
         <form method="POST">
-            <input type="text" name="kode" id="kode" placeholder="Kode Kelas">
+            <input type="text" name="kode" id="kode" placeholder="Kode bengkel">
             <button type="submit" name="gabung">Gabung</button>
         </form>
         <?php endif; ?>
-        <p class="head">Kelas yang anda ikuti</p>
+        <p class="head">Bengkel yang tersedia</p>
         <div class="containerMateri">
             <div class="kotakMapel">
                 <?php if(empty($kelass) && $_SESSION["role"] == 3) : ?>
-                    Anda belum bergabung di kelas manapun! Silahkan masukkan kode kelas Anda!
+                   Belum ada bengkel! Silahkan masukkan kode bengkel!
                 <?php else : ?>
                     <?php foreach ($kelass as $kelas) : ?>
                     <a href=<?php if($_SESSION["role"] == 2) {echo "ownerkelas.php?id=".$kelas["id_grupbelajar"];} else {echo "insidekelas.php?id=".$kelas["id_grupbelajar"];} ?>>
@@ -64,7 +64,7 @@ $kelass = query("SELECT a.nama_grupbelajar, a.id_grupbelajar FROM grup_belajar A
                     <?php if($_SESSION["role"] == 2) : ?>
                     <div class="mapel tambah">
                         <img src="../img/logokelas/add.png" alt="">
-                        <h4>Buat Kelas Baru</h4>
+                        <h4>Tambahkan Service Baru</h4>
                     </div>
                     <?php endif; ?>                    
                 <?php endif; ?> 
@@ -73,12 +73,12 @@ $kelass = query("SELECT a.nama_grupbelajar, a.id_grupbelajar FROM grup_belajar A
         <div class="buatKelas">
             <div class="pembungkusbuatKelas">
                 <p>&#10006;</p>
-                <h2>Buat Kelas Baru</h2>
+                <h2>Tambah Service Baru</h2>
                 <form action="" method="POST">
-                    <input type="text" name="namaKelas" id="namaKelas" placeholder="Nama Kelas" required><br>
-                    <input type="text" name="mapel" id="mapel" placeholder="Mata Pelajaran" required><br>
-                    <input type="text" name="Instansi" id="Instansi" placeholder="Instansi" required><br>
-                    <button type="submit" name="submit">Buat</button>
+                    <input type="text" name="namaKelas" id="namaKelas" placeholder="Nama Service" required><br>
+                    <input type="text" name="mapel" id="mapel" placeholder="Kategori" required><br>
+                    <input type="text" name="Instansi" id="Instansi" placeholder="Bengkel" required><br>
+                    <button type="submit" name="submit">Tambah</button>
                 </form>
             </div>
         </div> 

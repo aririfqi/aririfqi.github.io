@@ -5,8 +5,8 @@
 <footer>
     <div class="containerFooter">
         <div class="edin">
-            <h2>EDIN</h2>
-            <p class="kota">&copy;2020 Pulp Dev, Inc</p>
+            <h2>DISERA</h2>
+            <p class="kota">&copy;2021 Disera, Inc</p>
             <br><br>
             <p class="kota">Mataram, <br>Lombok Indonesia</p>
         </div>
@@ -16,7 +16,7 @@
                     <li>Home</li>
                 </a>
                 <a href="">
-                    <li>Courses</li>
+                    <li>Services</li>
                 </a>
                 <a href="">
                     <li>Blog</li>

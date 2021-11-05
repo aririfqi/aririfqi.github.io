@@ -21,7 +21,7 @@ require 'ceklogin.php';
     <?php include('nav.php')  ?>
 
     <main>
-        <h3>Edit Materi</h3>
+        <h3>Edit Daftar Service</h3>
         <script src="https://cdn.tiny.cloud/1/oeucx615z49568xoewf93k7skh74hgleifdggh6151f4mrvi/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
         <script>
             tinymce.init({

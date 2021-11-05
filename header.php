@@ -3,7 +3,7 @@ if (session_status() == PHP_SESSION_NONE) {
   session_start();
 }
 
-$_SESSION["base_url"] = "http://localhost/EDIN/";
+$_SESSION["base_url"] = "http://localhost/DISERA/";
 
 $login = false;
 if (isset($_SESSION["login"])) {
@@ -20,7 +20,7 @@ if (isset($_SESSION["login"])) {
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EDIN</title>
+  <title>DISERA</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   <style>
@@ -37,7 +37,7 @@ if (isset($_SESSION["login"])) {
 <body>
   <header>
     <div class="judul">
-      <h1>Edukasi Indonesia</h1>
+      <h1>Digital Service App</h1>
       <div class="tulisan">
         <?php if (!$login) : ?>
           <a href="<?= $_SESSION["base_url"]; ?>login.php">
@@ -78,14 +78,14 @@ if (isset($_SESSION["login"])) {
     </div>
     <nav>
       <div class="slogan">
-        <h2>EDIN</h2>
-        <p>Membangun negeri</p>
+        <h2>DISERA</h2>
+        <p>Do the best serving</p>
       </div>
 
       <ul>
         <li><a href="<?= $_SESSION["base_url"]; ?>index.php">Home</a></li>
-        <li><a href="<?= $_SESSION["base_url"]; ?>user/materi.php">Materi</a></li>
-        <li><a href="<?= $_SESSION["base_url"]; ?>user/kelas.php">Kelas</a></li>
+        <li><a href="<?= $_SESSION["base_url"]; ?>user/kelas.php">Service</a></li>
+        <li><a href="<?= $_SESSION["base_url"]; ?>user/materi.php">Informasi Service</a></li>
         <li><a href="<?= $_SESSION["base_url"]; ?>user/artikel.php">Artikel</a></li>
         <li><a href="<?= $_SESSION["base_url"]; ?>user/forum.php">Forum</a></li>
 

@@ -31,7 +31,7 @@ if(isset($_POST["submit"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join Edin</title>
+    <title>Join DISERA</title>
     <link rel="stylesheet" href="css/reset.css" />
     <!-- <link rel="stylesheet" href="css/buatAkun.css"> -->
     <link rel="stylesheet" href="css/registrasi.css">
@@ -42,8 +42,8 @@ if(isset($_POST["submit"])) {
         </div>
         <div class="daftar">
             <div class="daftarContainer">
-                <h2>Welcome To Edin!</h2>
-            <p>Edukasi Indonesia</p>
+                <h2>Welcome To DISERA!</h2>
+            <p>Digital Service App</p>
             <form action="" method="POST" enctype="multipart/form-data">
                 <label for="username">Nama : </label>
                 <input type="text" id="username" name="username" placeholder="nama" required>
@@ -61,19 +61,15 @@ if(isset($_POST["submit"])) {
                 <div class="radio">
                     <label for="status">Status : </label>
                     <input type="radio" id="siswa" name="status" value="3" required>
-                    <label for="siswa">Siswa</label>
+                    <label for="siswa">Pelanggan</label>
                     <input type="radio" id="guru" name="status" value="2" required>
-                    <label for="guru">Guru</label>
+                    <label for="guru">Bengkel</label>
                     <br>
-                    <label for="derajat">Jenjang : </label>
-                    <input type="radio" id="SMP" name="derajat" value="2" required>
-                    <label for="SMP">SMP</label>
-                    <input type="radio" id="SMA" name="derajat" value="1" required>
-                    <label for="SMA">SMA</label>
+                   
                 </div>
 
-                <label for="sekolah">Asal Sekolah : </label>
-                    <input type="text" id="sekolah" name="sekolah" placeholder="Nama Sekolah">
+                <label for="sekolah">Alamat : </label>
+                    <input type="text" id="sekolah" name="sekolah" placeholder="Alamat Anda">
                 <label for="gambar">Foto : </label>
                 <input type="file" name="gambar" id="gambar">
             

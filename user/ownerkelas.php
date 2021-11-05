@@ -57,8 +57,8 @@ $pengumumans = query("SELECT * FROM pengumuman WHERE id_grup='$id_kelas' ORDER B
                   </div>
                   <div class="message">
                     <div class="isi">
-                      <h2>Taruno</h2>
-                      <p>Jangan lupa kumpulin tugasnya guysss</p>
+                      <h2>Mukminag</h2>
+                      <p>Ayo service motornya agar tidak rusak</p>
       
                     </div>
                     <p class="waktu">12.20</p>
@@ -75,7 +75,7 @@ $pengumumans = query("SELECT * FROM pengumuman WHERE id_grup='$id_kelas' ORDER B
           </div>
           <div class="kotakInfo">
             <div class="judulInfo">
-              <p>Tugas</p>
+              <p>Keluhan</p>
             </div>
             
             <div class="pengumpulan">

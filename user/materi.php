@@ -17,16 +17,9 @@ require 'ceklogin.php';
     <?php include('../header.php')?>
     
     <main>
-        <label class="pilihKelas" for="pilihKelas">Pilih Kelas : </label>
+        <label class="pilihKelas" for="pilihKelas">Pilih Service : </label>
         <div class="custom-select" style="width: 70px;">
         <select name="pilihKelas" id="pilihKelas">
-            <option value="7">7</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
         </select>
         </div>
         
@@ -35,39 +28,34 @@ require 'ceklogin.php';
                 <a href="readMateri.php">
                     <div class="mapel">
                         <img src="../img/mapel/logo-mapel-ipa-fisika.png" alt="">
-                        <h4>Biologi</h4>
+                        <h4>Ganti Oli</h4>
                     </div>
                 </a>
                 <a href="readMateri.php">
                     <div class="mapel">
                         <img src="../img/mapel/logo-mapel-ipa-fisika.png" alt="">
-                        <h4>Fisika</h4>
+                        <h4>Tambal ban</h4>
                     </div>
                 </a>
                 <a href="readMateri.php">
                     <div class="mapel">
                         <img src="../img/mapel/logo-mapel-ipa-fisika.png" alt="">
-                        <h4>Kimia</h4>
+                        <h4>Service rutin</h4>
                     </div>
                 </a>
                 <a href="readMateri.php">
                     <div class="mapel">
                         <img src="../img/mapel/logo-mapel-ipa-fisika.png" alt="">
-                        <h4>Bahasa Indonesia</h4>
+                        <h4>Perbaikan mesin</h4>
                     </div>
                 </a>
                 <a href="readMateri.php">
                     <div class="mapel">
                         <img src="../img/mapel/logo-mapel-ipa-fisika.png" alt="">
-                        <h4>Bahasa Inggris</h4>
+                        <h4>Pemeriksaan mendalam</h4>
                     </div>
                 </a>
-                <a href="readMateri.php">
-                    <div class="mapel">
-                        <img src="../img/mapel/logo-mapel-ipa-fisika.png" alt="">
-                        <h4>Bahasa Inggris</h4>
-                    </div>
-                </a>
+               
 <!--               
                 <div class="mapel">
                     <img src="../img/mapel/logo-mapel-ipa-fisika.png" alt="">

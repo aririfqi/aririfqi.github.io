@@ -38,7 +38,7 @@ if(isset($_GET["submit"])) {
                 <th scope="col">Id</th>
                 <th scope="col">Nama</th>
                 <th scope="col">Pemilik</th>
-                <th scope="col">Instansi</th>
+                <th scope="col">Nama Bengkel</th>
                 <th scope="col">Action</th>
               </tr>
             </thead>

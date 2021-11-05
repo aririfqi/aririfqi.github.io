@@ -22,7 +22,7 @@ if(isset($_POST["login"])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>EDIN Login</title>
+	<title>DISERA Login</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
@@ -31,8 +31,8 @@ if(isset($_POST["login"])) {
 		<div class="login">
 		<form form action="" method="POST">
 			<a style="text-decoration:none;color:#09246C;" href="index.php">
-				<h2>EDIN</h2>
-				<h3>Edukasi Indonesia</h3>
+				<h2>DISERA</h2>
+				<h3>Digital Service App</h3>
 			</a>
 			<?php if(isset($alert)):  ?>
 			
@@ -46,7 +46,7 @@ if(isset($_POST["login"])) {
 			<button type="submit" name="login">Masuk</button>
 			<p>Lupa Password?</p>
 			<p>Belum Memliki akun? <a href="buatAkun.php">Bergabung</a></p>
-			<p class="cpr">&copy; 2021 Edukasi Indonesia. All rights reserved.</p>
+			<p class="cpr">&copy; 2021 Disera. All rights reserved.</p>
 		</form>
 		
 		</div>

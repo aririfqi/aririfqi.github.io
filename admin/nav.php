@@ -21,12 +21,12 @@
   <header>
     <nav>
       <ul>
-        <li><h1>Edukasi Indonesia</h1></li>
+        <li><h1>DISERA</h1></li>
         <hr>
         <a href="dashboard.php"><li>Dashboard</li></a>
         <a href="user.php"><li>User</li></a>
-        <a href="materi.php"><li>Materi</li></a>
-        <a href="kelas.php"><li>Kelas</li></a>
+        <a href="materi.php"><li>Service</li></a>
+        <a href="kelas.php"><li>Informasi Service</li></a>
         <a href="artikel.php"><li>Artikel</li></a>
         <a href="forum.php"><li>Forum</li></a>
         <a href="../logout.php"><li>Log Out</li></a>

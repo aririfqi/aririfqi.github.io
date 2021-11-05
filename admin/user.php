@@ -27,7 +27,7 @@ if(isset($_GET["submit"])) {
 <body>
     <?php include('nav.php')  ?>
     <main>
-        <h3>Pengguna Edin</h3>
+        <h3>Pengguna Disera</h3>
             <form class="form-inline" method="GET">
                 <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" name="search" required>
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="submit">Search</button>

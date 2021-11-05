@@ -36,14 +36,14 @@ require 'ceklogin.php';
         <div class="card" style="width: 200px;">
             <div class="card-body text-center">
             <i class="fa fa-book" aria-hidden="true" style="font-size: 120px;color: #09246C;"></i>
-             <h5 style="color: #09246C;">Materi</h5>
+             <h5 style="color: #09246C;">Service</h5>
             </div>
         </div></a>
         <a href="kelas.php">
         <div class="card" style="width: 200px;">
             <div class="card-body text-center">
             <i class="fab fa-chromecast" style="font-size: 120px;color: #09246C;"></i>
-             <h5 style="color: #09246C;">Kelas</h5>
+             <h5 style="color: #09246C;">Informasi Service</h5>
             </div>
         </div></a>
         <a href="artikel.php">

@@ -23,7 +23,7 @@ $data = query("SELECT a.nama_grupbelajar, b.nama_tugas FROM grup_belajar AS a, t
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pengumpulan Tugas</title>
+    <title>Submit Keluhan Anda:</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/bootsrap/bootstrap.css">
     <link rel="stylesheet" href="../css/submittedtask.css">
@@ -39,7 +39,7 @@ $data = query("SELECT a.nama_grupbelajar, b.nama_tugas FROM grup_belajar AS a, t
           <tr>
             <th scope="col">No</th>
             <th scope="col">Nama</th>
-            <th scope="col">Tugas</th>
+            <th scope="col">Keluhan</th>
             <th scope="col">Waktu pengumpulan</th>
           </tr>
         </thead>
@@ -54,7 +54,7 @@ $data = query("SELECT a.nama_grupbelajar, b.nama_tugas FROM grup_belajar AS a, t
                 </tr>
                 <?php $no++; endforeach; ?>
             <?php else : ?>
-                <tr><td style="text-align:center" colspan="4">Belum ada yang mengumpulkan tugas!</td></tr>
+                <tr><td style="text-align:center" colspan="4">Belum ada keluhan!</td></tr>
             <?php endif; ?>
                  
         </tbody>
